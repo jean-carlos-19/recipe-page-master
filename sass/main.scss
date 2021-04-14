@@ -1,0 +1,16 @@
+@import "./global";
+@import "./funciones";
+main {
+  width: 100%;
+  padding: 0.5em 1em;
+  * + * {
+    margin-top: 1.5rem;
+  }
+  @import "./bienvenido/bienvenido";
+  @import "./receta//receta";
+  @import "./pie_pagina/pie_pagina";
+  @media screen and(min-width:50em) {
+    width: 75%;
+    margin: 0 auto;
+  }
+}

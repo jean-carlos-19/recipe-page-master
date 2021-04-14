@@ -1,0 +1,12 @@
+@mixin display_flex($direccion, $principal, $secundario) {
+  display: flex;
+  flex-direction: $direccion;
+  justify-content: $principal;
+  align-items: $secundario;
+}
+@mixin display_grid($minimo, $relleno) {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($minimo, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: $relleno;
+}
