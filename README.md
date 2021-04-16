@@ -1,6 +1,6 @@
 <main>
 <section align="center">
-   <h1 align="center"> recipe-page-master </h1>
+   <h1 align="center"> Recipe Page Master </h1>
 </section>
 <section >
     <section>
