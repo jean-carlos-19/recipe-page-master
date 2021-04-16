@@ -39,10 +39,10 @@
     <h3> Soluciòn </h3>
     <nav>
     <ul>
-        <li><a href="http://wretched-beam.surge.sh/" target="_blank"> ver demo </a></li>
+        <li><a href="https://piguavejc-interior-consultant-gg9c.onrender.com/" target="_blank"> ver demo </a></li>
         <li><a href="https://github.com/jean-carlos-19/recipe-page-master" target="_blank"> ver solucion en github </a></li>
-        <li><a href="https://devchallenges.io/solutions/NPUEWxYZCKMCyo0IVcvz" target="_blank"> ver solucion en Devchallenge </a></li>
-        <li><a href="https://www.figma.com/proto/QeKWLNhB13zDjJzqR22TKE/404-page-challenge?node-id=1%3A56&scaling=min-zoom&page-id=0%3A1"> ver diseños en figma </a></li>
+        <li><a href="https://devchallenges.io/solutions/GWX3kuLp8gDKOQ34BzPM" target="_blank"> ver solucion en Devchallenge </a></li>
+        <li><a href="https://www.figma.com/proto/2jVBTSKeCYF0dIN6fi0stX/recipe-blog-challenge?node-id=0%3A1&scaling=min-zoom&page-id=0%3A1"> ver diseños en figma </a></li>
     </ul>
 
 </nav>
