@@ -4,7 +4,8 @@
   "main": "index.js",
   "author": "Jean Carlos Piguave Alvarado <you@example.com>",
   "license": "MIT",
-"scripts":{
-	"sass":"node-sass -w sass -o src/css"
-}
+  "scripts": {
+    "sass": "node-sass -w sass -o src/css",
+    "formateo": "prettier -w ./"
+  }
 }
