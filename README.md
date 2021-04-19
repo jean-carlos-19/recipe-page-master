@@ -10,11 +10,11 @@
 </section>
 <nav>
     <ul>
-        <li><a href="">Descripciòn General</a></li>
-        <li><a href="">Soluciòn</a></li>
-        <li><a href="">Construido Con</a></li>
-        <li><a href="">Caracteristicas</a></li>
-        <li><a href="">Contacto</a></li>    
+        <li><a href="https://github.com/jean-carlos-19/recipe-page-master#-descripci%C3%B2n-general-">Descripciòn General</a></li>
+        <li><a href="https://github.com/jean-carlos-19/recipe-page-master#-soluci%C3%B2n-">Soluciòn</a></li>
+        <li><a href="https://github.com/jean-carlos-19/recipe-page-master#-construido-con-">Construido Con</a></li>
+        <li><a href="https://github.com/jean-carlos-19/recipe-page-master#-contacto-">Caracteristicas</a></li>
+        <li><a href="https://github.com/jean-carlos-19/recipe-page-master#-contacto-">Contacto</a></li>    
     </ul>
 </nav>
 <section >
