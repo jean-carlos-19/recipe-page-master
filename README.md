@@ -64,6 +64,16 @@
     <p>
         Esta aplicación o sitio fue creada como una presentación a un desafío de <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. El reto consistía en construir una aplicación para completar las historias de usuario dadas.
     </p>
+      <p>
+        Desafío: crea una página de recetas siguiendo el diseño dado. Puedes usar tu propia receta y recuerda poner la fuente. La página debe responder. No mire las soluciones existentes. Cumplir con las historias de usuario a continuación:.
+    </p>
+     <nav>.
+        <ul>
+            <li>Historia de usuario: puedo ver una receta con ingredientes e instrucciones</li>
+            <li>Historia de usuario: puedo seleccionar una casilla de verificación si tengo los ingredientes</li>
+            <li>Historia de usuario: puedo ver la cantidad de porciones, los tiempos de horneado</li>
+        </ul>
+    </nav>
 </section>
 <section >
      <section>
