@@ -1,0 +1,54 @@
+.figura {
+  @include display_flex(row, flex-start, center);
+  & > * + * {
+    margin-left: 0.68rem;
+  }
+  &:first-child {
+    grid-column: 1/4;
+    .icono_figura {
+      color: var(--color_subtitulo_figura_primario);
+    }
+    .descripcion_figura {
+      .subtitulo_figura {
+        color: var(--color_subtitulo_figura_primario);
+      }
+    }
+  }
+  .icono_figura {
+    color: #4f4f4f;
+  }
+  .descripcion_figura {
+    @include display_flex(column, center, flex-start);
+    .titulo_figura {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 0.5rem;
+      line-height: 0.62rem;
+      text-transform: uppercase;
+      color: var(--color_subtitulo_figura_primario);
+    }
+    .subtitulo_figura {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.62rem;
+      line-height: 0.75rem;
+      color: var(--color_subtitulo_figura_secundario);
+    }
+  }
+}
+@media screen and(min-width:50rem) {
+  .estadistica_figura {
+    .descripcion_figura {
+      .titulo_figura {
+        font-size: 0.62rem;
+        line-height: 0.75rem;
+      }
+      .subtitulo_figura {
+        font-size: 0.87rem;
+        line-height: 1.06rem;
+      }
+    }
+  }
+}

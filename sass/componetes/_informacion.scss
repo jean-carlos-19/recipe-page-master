@@ -1,0 +1,11 @@
+.informacion {
+  & > * + * {
+    margin-top: 1.87rem;
+  }
+}
+@media screen and(min-width:50rem) {
+  .informacion {
+    flex-basis: calc(100% - 12.5rem);
+    order: 1;
+  }
+}

@@ -4,9 +4,9 @@
   justify-content: $principal;
   align-items: $secundario;
 }
-@mixin display_grid($minimo, $relleno) {
+@mixin display_grid($columna, $minimo, $relleno_x, $relleno_y) {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax($minimo, 1fr));
+  grid-template-columns: repeat($columna, minmax($minimo, 1fr));
   grid-template-rows: 1fr;
-  grid-gap: $relleno;
+  grid-gap: $relleno_x $relleno_y;
 }

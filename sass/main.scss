@@ -1,16 +1,14 @@
-@import "./global";
-@import "./funciones";
-main {
-  width: 100%;
-  padding: 0.5em 1em;
-  * + * {
-    margin-top: 1.5rem;
-  }
-  @import "./bienvenido/bienvenido";
-  @import "./receta//receta";
-  @import "./pie_pagina/pie_pagina";
-  @media screen and(min-width:50em) {
-    width: 75%;
-    margin: 0 auto;
-  }
-}
+@import "resumenes/variables", "resumenes/funciones", "resumenes/mixin";
+
+//@import "proveedores/";
+
+@import "base/tipografia", "base/normalizar", "base/base", "base/animaciones";
+
+@import "diseño/bienvenido", "diseño/contenido", "diseño/estadistica", "diseño/pie_pagina";
+
+@import "componetes/informacion", "componetes/figura", "componetes/ingredientes", "componetes/instrucciones", "componetes/tarjeta",
+  "componetes/literal", "componetes/referencia";
+
+@import "paginas/home";
+
+//@import "temas/"

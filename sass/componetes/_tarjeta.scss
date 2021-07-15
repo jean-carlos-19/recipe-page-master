@@ -1,0 +1,47 @@
+.tarjeta {
+  & > * + * {
+    margin-top: 0.31rem;
+  }
+  .tarjeta_titulo {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 21px;
+    color: var(--color_titulo_ingrediente);
+    margin-bottom: 1.31rem;
+  }
+  .item {
+    @include display_flex(row, flex-start, flex-start);
+    & > * + * {
+      margin-left: 0.5rem;
+    }
+    .check_item {
+      flex-basis: 1.56rem;
+      height: 1.56rem;
+    }
+    .parrafo_item {
+      flex-basis: calc(100% - 1.56rem);
+      font-family: "Montserrat", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.87rem;
+      line-height: 1.56rem;
+      color: var(--color_titulo_ingrediente);
+    }
+  }
+}
+@media screen and(min-width:50rem) {
+  .tarjeta {
+    .tarjeta_titulo {
+      font-size: 1.12rem;
+      line-height: 1.5rem;
+    }
+    .item {
+      .parrafo_item {
+        font-size: 1rem;
+        line-height: 1.56rem;
+      }
+    }
+  }
+}

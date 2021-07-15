@@ -1,0 +1,24 @@
+.ingredientes,
+.instrucciones {
+  & > * + * {
+    margin-top: 0.81rem;
+  }
+  .titulo_ingrediente {
+    text-transform: capitalize;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+    color: var(--color_titulo_ingrediente);
+  }
+}
+@media screen and(min-width:50rem) {
+  .ingredientes,
+  .instrucciones {
+    .titulo_ingrediente {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+}

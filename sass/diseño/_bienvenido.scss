@@ -1,0 +1,40 @@
+.bienvenido {
+  * + * {
+    margin-top: 0.75rem;
+  }
+  .bienvenido_descripcion {
+    .descripcion_titulo {
+      font-family: "Playfair Display", serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: var(--color_descripcion_titulo);
+    }
+    .descripcion_parrafo {
+      font-family: "Montserrat", sans-serif;
+      font-style: italic;
+      font-weight: 500;
+      font-size: 0.75rem;
+      line-height: 0.93rem;
+      color: #4f4f4f;
+    }
+  }
+}
+@media screen and (min-width: 50rem) {
+  .bienvenido {
+    .descripcion {
+      width: 75%;
+      .descripcion_titulo {
+        font-size: 3rem;
+        line-height: 4rem;
+        color: var(--color_descripcion_titulo);
+      }
+      .descripcion_parrafo {
+        font-size: 0.87rem;
+        line-height: 1.06rem;
+        color: #4f4f4f;
+      }
+    }
+  }
+}

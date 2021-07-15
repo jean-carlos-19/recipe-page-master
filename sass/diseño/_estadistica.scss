@@ -1,0 +1,14 @@
+.estadistica {
+  @include display_grid(3, 3.12rem, 1.25rem, 1.25rem);
+}
+@media screen and(min-width:50rem) {
+  .estadistica {
+    flex-basis: 12.5rem;
+    order: 2;
+    border: 0;
+    border-radius: 0.93rem;
+    padding: 2.93rem 3.12rem;
+    box-shadow: 0 0 0.93rem 0 rgba(50, 50, 50, 0.75);
+    @include display_flex(column, flex-start, center);
+  }
+}
