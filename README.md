@@ -24,6 +24,9 @@
     <section >
          <img align="center"  width="100%" heigth="50vh" src="./src/img/escritorio.png" alt="figura del sitio web en version escritorio">
     <section>
+     <section >
+         <img align="center"  width="100%" heigth="50vh" src="./src/img/movil.png" alt="figura del sitio web en version escritorio">
+    <section>
    
 </section>
 
