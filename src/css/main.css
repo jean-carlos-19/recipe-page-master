@@ -263,6 +263,6 @@ a {
   padding: 2rem 0.68rem;
   animation: apareceSitio 0.8s linear 0s; }
 
-@media screen and (min-width: 50rem) {
+@media screen and (min-width: 80rem) {
   .home {
     padding: 3.25rem 14.81rem; } }
