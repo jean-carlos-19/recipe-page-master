@@ -1,0 +1,40 @@
+.titulo {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: left;
+    color: var(--color_secundario_oscuro);
+  }
+  .subtitulo {
+    font-family: "Montserrat" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.62rem;
+    line-height: 0.75rem;
+    color: var(--color_secundario_gris_300);
+  }
+  .parrafo {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 0.93rem;
+    text-align: left;
+    color: var(--color_secundario_gris_100);
+  }
+  
+  .enlace {
+}
+
+  .numero {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: var(--color_secundario_blanco);
+  }
+  
+  
