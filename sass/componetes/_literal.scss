@@ -5,30 +5,18 @@
   }
   .numero_literal {
     padding: 0.12rem 0.81rem;
-    background-color: var(--color_subtitulo_figura_primario);
+    background-color: var(--color_primario);
     border: none;
     border-radius: 0.37rem;
-    font-family: "Playfair Display", serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    color: var(--color_numero_literal);
   }
   .parrafo_literal {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 1rem;
     line-height: 150%;
-    color: var(--color_titulo_ingrediente);
+    color: var(--color_secundario_gris_200);
   }
 }
 @media screen and(min-width:50rem) {
   .literal {
-    .numero_literal {
-    }
-    .parrafo_literal {
-    }
   }
 }

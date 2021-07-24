@@ -8,7 +8,7 @@
     border: 0;
     border-radius: 0.93rem;
     padding: 2.93rem 3.12rem;
-    box-shadow: 0 0 0.93rem 0 rgba(50, 50, 50, 0.75);
+    box-shadow: 0 0 0.93rem 0 var(--color_secundario_gris_500);
     @include display_flex(column, flex-start, center);
   }
 }

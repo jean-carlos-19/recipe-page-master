@@ -3,13 +3,12 @@
     margin-top: 0.31rem;
   }
   .tarjeta_titulo {
-    font-family: "Playfair Display", serif;
+    margin-bottom: 1.31rem;
     font-style: italic;
     font-weight: normal;
     font-size: 1rem;
     line-height: 21px;
-    color: var(--color_titulo_ingrediente);
-    margin-bottom: 1.31rem;
+    color: var(--color_secundario_gris_200);
   }
   .item {
     @include display_flex(row, flex-start, flex-start);
@@ -22,12 +21,10 @@
     }
     .parrafo_item {
       flex-basis: calc(100% - 1.56rem);
-      font-family: "Montserrat", sans-serif;
-      font-style: normal;
       font-weight: normal;
       font-size: 0.87rem;
       line-height: 1.56rem;
-      color: var(--color_titulo_ingrediente);
+      color: var(--color_secundario_gris_200);
     }
   }
 }

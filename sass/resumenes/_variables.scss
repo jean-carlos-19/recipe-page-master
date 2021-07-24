@@ -1,11 +1,10 @@
 :root {
-  --color_subtitulo_figura_primario: #f2994a;
-  --color_titulo_figura: #bdbdbd;
-  --color_subtitulo_figura_secundario: #333333;
-  --color_pie_pagina_parrafo: #828282;
-  --color_pie_pagina_enlace: #4e4c4c;
-  --color_descripcion_titulo: #000000;
-  --color_descripcion_parrafo: #4f4f4f;
-  --color_titulo_ingrediente: #333333;
-  --color_numero_literal: #ffffff;
+  --color_primario: #f2994a;
+  --color_secundario_gris_100: #4f4f4f;
+  --color_secundario_gris_200: #333333;
+  --color_secundario_gris_300: #828282;
+  --color_secundario_gris_400: #bdbdbd;
+  --color_secundario_gris_500: rgba(0, 0, 0, 0.1);
+  --color_secundario_oscuro: #000000;
+  --color_secundario_blanco: #ffffff;
 }

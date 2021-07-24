@@ -6,7 +6,8 @@
 
 @import "diseño/bienvenido", "diseño/contenido", "diseño/estadistica", "diseño/pie_pagina";
 
-@import "componetes/informacion", "componetes/figura", "componetes/ingredientes", "componetes/instrucciones", "componetes/tarjeta",
+@import "componetes/titulo", "componetes/subtitulo", "componetes/parrafo", "componetes/enlace", "componetes/numero",
+  "componetes/informacion", "componetes/figura", "componetes/ingredientes", "componetes/instrucciones", "componetes/tarjeta",
   "componetes/literal", "componetes/referencia";
 
 @import "paginas/home";
