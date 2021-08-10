@@ -3,19 +3,4 @@
   & > * + * {
     margin-top: 0.81rem;
   }
-  .titulo_ingrediente {
-    font-size: 1.12rem;
-    line-height: 1.5rem;
-    text-transform: capitalize;
-    color: var(--color_secundario_gris_200);
-  }
-}
-@media screen and(min-width:50rem) {
-  .ingredientes,
-  .instrucciones {
-    .titulo_ingrediente {
-      font-size: 1.5rem;
-      line-height: 2rem;
-    }
-  }
 }

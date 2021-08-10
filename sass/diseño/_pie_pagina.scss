@@ -1,14 +1,10 @@
 .pie_pagina {
   margin-top: 129px;
-  .pie_pagina_parrafo {
-    font-size: -87rem;
-    line-height: 1.06rem;
+  .parrafo_pie_pagina{
     text-align: center;
-    color: var(--color_secundario_gris_300);
-  }
-  .pie_pagina_enlace {
-    font-style: italic;
-    font-weight: bold;
-    color: inherit;
+    .enlace_pie_pagina{
+      font-weight: bold;
+      color: inherit;
+    }
   }
 }

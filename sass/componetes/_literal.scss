@@ -3,20 +3,5 @@
   & > * + * {
     margin-left: 0.5rem;
   }
-  .numero_literal {
-    padding: 0.12rem 0.81rem;
-    background-color: var(--color_primario);
-    border: none;
-    border-radius: 0.37rem;
-  }
-  .parrafo_literal {
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 150%;
-    color: var(--color_secundario_gris_200);
-  }
 }
-@media screen and(min-width:50rem) {
-  .literal {
-  }
-}
+
