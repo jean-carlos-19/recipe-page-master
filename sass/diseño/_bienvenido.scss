@@ -1,12 +1,14 @@
 .bienvenido {
   * + * {
-    margin-top: 0.75rem;
+    margin-top: 0.75rem; /*12/16*/
   }
 }
 @media screen and (min-width: 50rem) {
   .bienvenido {
-    .bienvenido_descripcion {
-      width: 75%;
+    .descripcion_bienvenido {
+      .parrafo_descripcion {
+        width: 61.09%; /* (592/969)*100 */
+      }
     }
   }
 }

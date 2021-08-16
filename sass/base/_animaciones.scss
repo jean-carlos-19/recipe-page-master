@@ -15,3 +15,12 @@
     opacity: 1;
   }
 }
+
+@keyframes escala_estadistica {
+  from {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1);
+  }
+}

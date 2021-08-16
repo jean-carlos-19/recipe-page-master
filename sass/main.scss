@@ -1,13 +1,17 @@
+@charset "utf-8";
+
 @import "resumenes/variables", "resumenes/funciones", "resumenes/mixin";
 
 //@import "proveedores/";
 
-@import "base/fuentes", "base/animaciones", "base/normalizar", "base/base", "base/ayudantes";
+@import "base/fuentes", "base/animaciones", "base/normalizar", "base/base",
+  "base/ayudantes";
 
-@import "diseño/bienvenido", "diseño/contenido", "diseño/estadistica", "diseño/referencia", "diseño/pie_pagina";
+@import "diseño/bienvenido", "diseño/contenido", "diseño/estadistica",
+  "diseño/tarjeta", "diseño/referencia", "diseño/pie_pagina";
 
-@import "componetes/informacion", "componetes/figura", "componetes/ingredientes", "componetes/instrucciones", "componetes/tarjeta",
-  "componetes/literal";
+@import "componetes/informacion", "componetes/figura", "componetes/ingredientes",
+  "componetes/lista", "componetes/literal";
 
 @import "paginas/home";
 

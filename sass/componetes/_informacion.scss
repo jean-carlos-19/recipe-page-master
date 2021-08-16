@@ -1,11 +1,11 @@
 .informacion {
   & > * + * {
-    margin-top: 1.87rem;
+    margin-top: 1.87rem; /*30.24/16*/
   }
 }
 @media screen and(min-width:50rem) {
   .informacion {
-    flex-basis: calc(100% - 15.5rem);
+    flex-basis: 62.56%; /* (600/959)*100 */
     order: 1;
   }
 }

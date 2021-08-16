@@ -1,7 +1,6 @@
 .literal {
   @include display_flex(row, flex-start, flex-start);
   & > * + * {
-    margin-left: 0.5rem;
+    margin-left: 0.5rem; /* 8/16 */
   }
 }
-

@@ -1,5 +1,9 @@
 img {
   max-width: 100%;
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  cursor: pointer;
 }
 a {
   text-decoration: none;

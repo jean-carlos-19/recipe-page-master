@@ -1,13 +1,19 @@
 .estadistica {
-  @include display_grid(3, 3.12rem, 1.25rem, 1.25rem);
+  @include display_grid(
+    3,
+    3.12rem,
+    1.25rem,
+    1.25rem
+  ); /* (50/16) , (20/16) , (20/16)*/
+  animation: escala_estadistica 1s ease-in-out infinite alternate;
 }
 @media screen and(min-width:50rem) {
   .estadistica {
-    flex-basis: 12.5rem;
+    flex-basis: 22.29%; /* (216/969)*100 */
     order: 2;
     border: 0;
     border-radius: 0.93rem;
-    padding: 2.93rem 3.12rem;
+    padding: 2.93rem 3.12rem; /*(46.88/16) , (49.92/16)*/
     box-shadow: 0 0 0.93rem 0 var(--color_secundario_gris_500);
     @include display_flex(column, flex-start, center);
   }

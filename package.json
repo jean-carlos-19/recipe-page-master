@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "sass": "node-sass -w sass -o src/css",
-    "prettier": "prettier -w ./*"
+    "prettier": "prettier -w ./*",
+    "ckeck_prettier": "prettier --check './*'"
   }
 }
