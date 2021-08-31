@@ -1,6 +1,14 @@
 .literal {
-  @include display_flex(row, flex-start, flex-start);
   & > * + * {
     margin-left: 0.5rem; /* 8/16 */
+  }
+  @include display_flex(row, flex-start, flex-start);
+  .numero_literal {
+    padding: 0.81rem; /*13/16*/
+    border-radius: 0.37rem; /*6/16*/
+    background-color: var(--color_primario);
+    color: var(--color_secundario_blanco);
+    font-size: #{$tamano_titulo_movil};
+    line-height: #{$interlineado_titulo_movil};
   }
 }

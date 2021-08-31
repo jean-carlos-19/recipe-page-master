@@ -10,3 +10,78 @@
   grid-template-rows: 1fr;
   grid-gap: $relleno_x $relleno_y;
 }
+@mixin color {
+  --color_primario: #f2994a;
+  --color_secundario_gris_100: #4f4f4f;
+  --color_secundario_gris_200: #333333;
+  --color_secundario_gris_300: #828282;
+  --color_secundario_gris_400: #bdbdbd;
+  --color_secundario_gris_500: rgba(0, 0, 0, 0.1);
+  --color_secundario_oscuro: #000000;
+  --color_secundario_blanco: #ffffff;
+}
+@mixin titulo {
+  --tamano_titulo: #{$tamano_titulo_movil};
+  --interlineado_titulo: #{$interlineado_titulo_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo: #{$tamano_titulo_escritorio};
+    --interlineado_titulo: #{$interlineado_titulo_escritorio};
+  }
+}
+@mixin titulo_2 {
+  --tamano_titulo_2: #{$tamano_titulo_2_movil};
+  --interlineado_titulo_2: #{$interlineado_titulo_2_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_2: #{$tamano_titulo_2_escritorio};
+    --interlineado_titulo_2: #{$interlineado_titulo_2_escritorio};
+  }
+}
+@mixin titulo_3 {
+  --tamano_titulo_3: #{$tamano_titulo_3_movil};
+  --interlineado_titulo_3: #{$interlineado_titulo_3_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_titulo_3: #{$tamano_titulo_3_escritorio};
+    --interlineado_titulo_3: #{$interlineado_titulo_3_escritorio};
+  }
+}
+@mixin subtitulo {
+  --tamano_subtitulo: #{$tamano_subtitulo_movil};
+  --interlineado_subtitulo: #{$interlineado_subtitulo_movil};
+}
+@mixin subtitulo_2 {
+  --tamano_subtitulo_2: #{$tamano_subtitulo_2_movil};
+  --interlineado_subtitulo_2: #{$interlineado_subtitulo_2_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_subtitulo_2: #{$tamano_subtitulo_2_escritorio};
+    --interlineado_subtitulo_2: #{$interlineado_subtitulo_2_escritorio};
+  }
+}
+@mixin subtitulo_3 {
+  --tamano_subtitulo_3: #{$tamano_subtitulo_3_movil};
+  --interlineado_subtitulo_3: #{$interlineado_subtitulo_3_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_subtitulo_3: #{$tamano_subtitulo_3_escritorio};
+    --interlineado_subtitulo_3: #{$interlineado_subtitulo_3_escritorio};
+  }
+}
+@mixin parrafo {
+  --tamano_parrafo: #{$tamano_parrafo_movil};
+  --interlineado_parrafo: #{$interlineado_parrafo_movil};
+  @media screen and(min-width:37.5rem) {
+    --tamano_parrafo: #{$tamano_parrafo_escritorio};
+    --interlineado_parrafo_escritortio: #{$interlineado_parrafo_escritorio};
+  }
+}
+@mixin normal {
+  --tamano_normal: #{$tamano_normal_movil};
+  --interlineado_normal: #{$interlineado_normal_movil};
+}
+@mixin rellenos {
+  --relleno_home: 2rem 0.68rem; /* (32/16) , (11/16)*/
+  @media screen and(min-width:60rem) {
+    --relleno_home: 3.25rem 14.81rem; /* 52/16 , 236.96/16 */
+  }
+}
+@mixin anchos {
+  --ancho_maximo: 90rem; /*1440/16*/
+}

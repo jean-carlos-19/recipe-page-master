@@ -1,0 +1,24 @@
+.normal {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--tamano_normal);
+  line-height: var(--interlineado_normal);
+  color: var(--color_secundario_gris_200);
+}
+.pequeno {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--tamano_parrafo);
+  line-height: var(--interlineado_parrafo);
+  text-align: left;
+  color: var(--color_secundario_gris_100);
+
+  @media screen and(min-width:37.5rem) {
+    & {
+      font-size: var(--tamano_parrafo);
+      line-height: var(--interlineado_parrafo);
+    }
+  }
+}

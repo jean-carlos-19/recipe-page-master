@@ -1,4 +1,20 @@
 :root {
+  /*
+  moivl: (375,3740)
+  escritorio:(1440,2989)
+*/
+
+  @include color();
+  @include titulo();
+  @include titulo_2();
+  @include titulo_3();
+  @include parrafo();
+  @include subtitulo();
+  @include subtitulo_2();
+  @include subtitulo_3();
+  @include normal();
+  @include rellenos();
+  @include anchos();
   box-sizing: border-box;
 }
 *,

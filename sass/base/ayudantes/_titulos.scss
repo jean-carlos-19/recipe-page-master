@@ -1,0 +1,83 @@
+.titulo {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--tamano_titulo);
+  line-height: var(--interlineado_titulo);
+  text-align: left;
+  color: var(--color_secundario_oscuro);
+
+  @media screen and(min-width:37.5rem) {
+    & {
+      font-size: var(--tamano_titulo);
+      line-height: var(--interlineado_titulo);
+    }
+  }
+}
+.titulo_2 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--tamano_titulo_2);
+  line-height: var(--interlineado_titulo_2);
+  text-transform: capitalize;
+  color: var(--color_secundario_gris_200);
+  @media screen and(min-width:37.5rem) {
+    & {
+      font-size: var(--tamano_titulo_2);
+      line-height: var(--interlineado_titulo_2);
+    }
+  }
+}
+.titulo_3 {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--tamano_titulo_3);
+  line-height: var(--interlineado_titulo_3);
+  color: var(--color_secundario_gris_200);
+  @media screen and(min-width:37.5rem) {
+    & {
+      font-size: var(--tamano_titulo_3);
+      line-height: var(--interlineado_titulo_3);
+    }
+  }
+}
+.subtitulo {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: normal;
+  font-size: var(--tamano_subtitulo);
+  line-height: var(--interlineado_subtitulo);
+  color: var(--color_secundario_gris_200);
+}
+.subtitulo_2 {
+  font-family: "Playfair Display";
+  font-style: italic;
+  font-weight: normal;
+  font-size: var(--tamano_subtitulo_2);
+  line-height: var(--interlineado_subtitulo_2);
+  color: var(--color_secundario_gris_200);
+
+  @media screen and(min-width:37.5rem) {
+    & {
+      font-size: var(--tamano_subtitulo_2);
+      line-height: var(--interlineado_subtitulo_2);
+    }
+  }
+}
+.subtitulo_3 {
+  font-family: "Montserrat" sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: var(--tamano_subtitulo_3);
+  line-height: var(--interlineado_subtitulo_3);
+  text-transform: uppercase;
+  color: var(--color_secundario_gris_400);
+  @media screen and(min-width:37.5rem) {
+    & {
+      font-size: var(--tamano_subtitulo_3);
+      line-height: var(--interlineado_subtitulo_3);
+    }
+  }
+}
