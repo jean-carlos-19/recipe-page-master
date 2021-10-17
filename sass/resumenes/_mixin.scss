@@ -20,12 +20,12 @@
   --color_secundario_oscuro: #000000;
   --color_secundario_blanco: #ffffff;
 }
-@mixin titulo {
-  --tamano_titulo: #{$tamano_titulo_movil};
-  --interlineado_titulo: #{$interlineado_titulo_movil};
+@mixin titulo_1 {
+  --tamano_titulo: #{$tamano_titulo_1_movil};
+  --interlineado_titulo_1: #{$interlineado_titulo_1_movil};
   @media screen and(min-width:37.5rem) {
-    --tamano_titulo: #{$tamano_titulo_escritorio};
-    --interlineado_titulo: #{$interlineado_titulo_escritorio};
+    --tamano_titulo_1: #{$tamano_titulo_1_escritorio};
+    --interlineado_titulo_1: #{$interlineado_titulo_1_escritorio};
   }
 }
 @mixin titulo_2 {
