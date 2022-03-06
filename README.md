@@ -10,7 +10,7 @@ _Reto: Crea una página de recetas siguiendo el diseño propuesto por [DevChalle
 
 ### Previsualización :eye:
 
-![imagen]()
+![imagen](https://github.com/jean-carlos-19/recipe-page-master/blob/master/captura/escritorio.png)
 
 ### Demo :eyes:
 _Puedes encontrar la implementacion del desafio [aqui](https://piguavejc-interior-consultant-gg9c.onrender.com/)_
