@@ -1,11 +1,15 @@
 {
   "name": "recipe-page-master",
+  "author": {
+    "name": "Jean Carlos Piguave Alvarado",
+    "email": "piguavejc@gmail.com",
+    "url": "https://devchallenges.io/portfolio/jean-carlos-19"
+  },
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Jean Carlos Piguave Alvarado <you@example.com>",
   "license": "MIT",
   "scripts": {
-    "sass": "node-sass -w sass -o src/css",
+    "scss": "node-sass -w sass -o src/css",
     "prettier": "prettier -w ./*",
     "ckeck_prettier": "prettier --check './*'"
   }
